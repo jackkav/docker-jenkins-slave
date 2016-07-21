@@ -1,4 +1,4 @@
-FROM jenkinsci/jnlp-slave
+FROM vineetreynolds/jenkins-slave
 RUN apt-get install -y phantomjs
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.3/install.sh | bash \
    && source .profile \
